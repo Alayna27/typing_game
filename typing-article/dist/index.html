@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>typing article</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typing Game - Classical Literature</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Typing Practice Game</h2>
+    <div id="levelSelector">
+      <label>Select Level:</label>
+      <select id="difficulty">
+        <option value="beginner">Beginner</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="startBtn">Start</button>
+    </div>
+    <div id="gameArea" style="display: none;">
+      <p class="quote" id="quoteText"></p>
+      <textarea id="inputArea" rows="10" placeholder="Start typing here..."></textarea>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script src='https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js'></script>
+<script src='https://www.gstatic.com/firebasejs/11.8.1/firebase-analytics.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
